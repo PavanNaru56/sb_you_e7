@@ -59,10 +59,11 @@ public class DemoController {
 
     //PostFilet => return type must be either a Collection or an array
 
-    @GetMapping("/demo7")
-    @PostFilter("filterObject.contains('a')")
-    public List<String> demo6(){
-        return List.of("adcd","derf","qaaz","wrt"); // List.of creates and immutable collection -> doubt
-    }
+//    @GetMapping("/demo7")
+//    @PostFilter("filterObject.contains('a')")
+//    public List<String> demo6(){
+//        return List.of("adcd","derf","qaaz","wrt"); // List.of creates and immutable collection -> doubt
+//    }
 
+    // To create this create a arrayList manually and add the items into the list and return the list.
 }
